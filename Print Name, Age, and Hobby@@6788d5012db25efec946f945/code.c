@@ -8,7 +8,7 @@ int main() {
     scanf("%d",&b);
 
     char c[40];
-    scanf("%d",&c);
+    scanf("%s",&c);
 
     printf("Name: %s\n",a);
     printf("Age: %d\n",b);
