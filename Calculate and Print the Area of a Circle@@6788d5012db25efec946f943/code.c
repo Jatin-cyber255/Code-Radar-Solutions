@@ -3,6 +3,6 @@ int main() {
     int a;
     scanf("%d",&a);
 
-    printf("Area: ",(3.14)*(a^2));
+    printf("Area: ",(3.14)*(a*a));
     return 0;
 }
