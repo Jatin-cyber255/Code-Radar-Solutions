@@ -12,7 +12,11 @@ int main() {
         } else {
             printf("Digit");
         }
-    } else {
+    }
+    else if(ch=='5'){
+        printf("Digit");
+    }
+    else {
         printf("Special Character");
     }
     
