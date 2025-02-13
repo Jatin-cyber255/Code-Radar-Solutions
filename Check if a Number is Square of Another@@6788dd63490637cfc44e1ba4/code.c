@@ -5,8 +5,7 @@ int main(){
     int x= a*a;
     if(x==b){
         printf("Yes");
-    }else if(x!=b){
-        printf("Yes");
+    
     }else{
         printf("No");
     }
