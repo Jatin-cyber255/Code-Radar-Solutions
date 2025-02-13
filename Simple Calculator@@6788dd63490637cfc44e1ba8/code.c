@@ -5,17 +5,26 @@ int main() {
     char c;
     scanf("%d %d %c", &a, &b, &c);
 
-    if (c == '+' || c == '-' || c == '*' || c == '/') {
-        if (c == '+')
+    switch (c) {
+        case '+':
             printf("%d\n", a + b);
-        else if (c == '-')
+            break;
+        case '-':
             printf("%d\n", a - b);
-        else if (c == '*')
+            break;
+        case '*':
             printf("%d\n", a * b);
-        else if (c == '/')
-            printf("%d\n", a / b);
-    } else {
-        printf("Invalid\n");
+            break;
+        case '/':
+            if (b != 0) {
+                printf("%d\n", a / b);
+            } else {
+                printf("Division by zero error\n");
+            }
+            break;
+        default:
+            printf("Invalid operator\n");
+            break;
     }
 
     return 0;
