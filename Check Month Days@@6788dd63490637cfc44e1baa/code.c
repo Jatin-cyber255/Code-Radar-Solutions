@@ -6,8 +6,8 @@ int main() {
     scanf("%d", &month);
 
     switch(month) {
-        case 1:  printf("31 days\n"); break;
-        case 2:  printf("28)\n"); break;
+        case 1:  printf("31 \n"); break;
+        case 2:  printf("28\n"); break;
         case 3:  printf("31 \n"); break;
         case 4:  printf("30 \n"); break;
         case 5:  printf("31 \n"); break;
