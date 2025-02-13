@@ -3,20 +3,17 @@
 int main() {
     char input;
     
-    scanf(" %c", &input);  // Note the space before %c to ignore any leading whitespace
+    scanf(" %c", &input); 
 
     switch(input) {
         case 'R':
-        case 'r': 
-            printf("Red\n");
+            printf("Stop\n");
             break;
         case 'Y':
-        case 'y': 
-            printf("Yellow\n");
+            printf("Wait\n");
             break;
         case 'G':
-        case 'g': 
-            printf("Green\n");
+            printf("Go\n");
             break;
         default: 
             printf("Invalid signal!\n");
