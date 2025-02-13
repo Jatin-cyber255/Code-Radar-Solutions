@@ -10,7 +10,7 @@ int main() {
             printf("Stop\n");
             break;
         case 'Y':
-            printf("Wait\n");
+            printf("Slow Down\n");
             break;
         case 'G':
             printf("Go\n");
