@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main(){
-    int a;
-    scanf("%d",&a);
+    int i;
+    scanf("%d",&i);
     int not_prime=0;
-    if(a==0 || a==1){
+    if(i==0 || i==1){
         not_prime=1;
     }
-    for(i=2;i<a;i++){
-        if(a%i==0 && i!=2){
+    for(a=2;a<i;a++){
+        if(i%a==0 && a!=2){
             not_prime=1;
             break;
         }
