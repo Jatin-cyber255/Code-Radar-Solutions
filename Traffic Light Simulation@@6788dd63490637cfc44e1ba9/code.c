@@ -16,7 +16,7 @@ int main() {
             printf("Go\n");
             break;
         default: 
-            printf("Invalid signal!\n");
+            printf("Invalid input\n");
             break;
     }
     
