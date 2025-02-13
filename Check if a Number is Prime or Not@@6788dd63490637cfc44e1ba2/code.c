@@ -2,7 +2,6 @@
 
 int main() {
     int i, not_prime = 0;
-    printf("Enter a number: ");
     scanf("%d", &i);
 
     if (i == 0 || i == 1) {
