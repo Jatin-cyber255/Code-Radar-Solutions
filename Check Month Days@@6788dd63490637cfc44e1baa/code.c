@@ -3,7 +3,6 @@
 int main() {
     int month;
     
-    printf("Enter a month number (1-12): ");
     scanf("%d", &month);
 
     switch(month) {
