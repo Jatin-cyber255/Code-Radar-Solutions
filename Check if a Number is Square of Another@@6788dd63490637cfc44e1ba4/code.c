@@ -6,6 +6,8 @@ int main(){
     if(x==b){
         printf("No");
     }else if(x!=b){
+        printf("No");
+    }else{
         printf("Yes");
     }
 }
