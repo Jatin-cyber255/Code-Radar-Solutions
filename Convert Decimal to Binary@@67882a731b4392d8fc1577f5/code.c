@@ -5,7 +5,7 @@ int main() {
     int n, i = 0, b[32];
         scanf("%d", &n);
         if(n=='0'){
-            printf(0);
+            printf("0");
         }
         else{
 
