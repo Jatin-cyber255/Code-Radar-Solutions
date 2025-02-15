@@ -7,11 +7,14 @@ int main() {
         if(n==0){
             printf(0);
         }
+        else{
+
         
             while (n) {
                     b[i++] = n % 2;
                     n /= 2;
                 }
                 while (i--) printf("%d", b[i]);
+        }
                         return 0;
 }
