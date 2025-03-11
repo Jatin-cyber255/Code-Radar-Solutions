@@ -5,14 +5,23 @@ int main() {
     scanf("%d", &a);
     for (int i = 1; i <a; i++) {
         for (int j = 0; j < a; j++) {
-            printf("%d ",i++);
+            if(i==1 ||i==a ||j==1||j==a){
+                printf(" ");
+            }else{
+                printf("*");
+            }
         }
     }printf("\n");
-    for (int i = 1; i <a; i++) {
+    for (int i = 1; i <a; i--) {
         for (int j = 0; j < a; j++) {
-            printf("%d ",i++);
+            if(i==1 ||i==a ||j==1||j==a){
+                printf(" ");
+            }else{
+                printf("*");
+            }
         }
     }printf("\n");
+   
     
     return 0;
 }
