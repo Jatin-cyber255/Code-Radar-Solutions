@@ -7,7 +7,7 @@ int main() {
 
     for (int i = 1; i <= n; i++) {
         for (int space = 1; space <= n - i; space++) {
-            printf("  ");
+            printf(" ");
         }
         for (int num = 1; num <= i; num++) {
             printf("%d ", num);
