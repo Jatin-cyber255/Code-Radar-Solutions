@@ -1,13 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int n, num = 1;
+    int n;
     scanf("%d", &n);
 
     for (int i = 1; i <= n; i++) {
         for (int j = 1; j <= i; j++) {
-            printf("%d ", num % 2); // Print 0 or 1 alternately
-            num++;
+            printf("%d ", (i + j) % 2); // Alternates between 0 and 1
         }
         printf("\n");
     }
